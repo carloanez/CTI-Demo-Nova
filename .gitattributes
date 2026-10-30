@@ -1,0 +1,8 @@
+# Preserve canonical fixture bytes so corpus SHA256 checks survive cloning.
+data/** -text
+instructor/ground_truth.json -text
+instructor/nova_labels.json -text
+
+# Preserve binary teaching assets as delivered.
+*.png binary
+*.pptx binary
