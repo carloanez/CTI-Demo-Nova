@@ -1,0 +1,11 @@
+rule CTIInstructionOverride {
+    meta:
+        description = "Training patterns for instruction override in retrieved CTI"
+        author = "Carlo Anez Mazurco / IgniteCyber Academy"
+        severity = "high"
+    keywords:
+        $ignore = "ignore previous instructions"
+        $system = "SYSTEM OVERRIDE"
+    condition:
+        keywords.$ignore or keywords.$system
+}

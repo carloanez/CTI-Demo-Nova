@@ -1,0 +1,11 @@
+raw_observable,indicator,ioc_type,source_id
+198.51.100.77,198.51.100.77,ipv4,R01:P02
+vpn.ironvale.example,vpn.ironvale.example,domain,R01:P02
+203.0.113.42,203.0.113.42,ipv4,R01:P03
+sheet-sync-service.invalid,sheet-sync-service.invalid,domain,R01:P03
+cdn-update-cloud[.]invalid,cdn-update-cloud.invalid,domain,R01:P03
+"hxxps://cdn-update-cloud[.]invalid/api/v2/task,",https://cdn-update-cloud.invalid/api/v2/task,url,R01:P03
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,sha256,R01:P05
+rotated-task.invalid,rotated-task.invalid,domain,R03:P02
+collector.invalid,collector.invalid,domain,R06:P03
+https://collector.invalid/upload,https://collector.invalid/upload,url,R06:P03

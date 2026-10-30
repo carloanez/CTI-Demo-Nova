@@ -1,0 +1,9 @@
+[
+  {
+    "id": "CHG-2042",
+    "Computer": "SRV-MGMT-01",
+    "User": "svc_admin",
+    "start": "2026-06-21T11:00:00Z",
+    "end": "2026-06-21T12:00:00Z"
+  }
+]

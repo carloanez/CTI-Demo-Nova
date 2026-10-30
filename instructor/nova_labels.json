@@ -1,0 +1,482 @@
+{
+  "attack-01": {
+    "expected_attack": true,
+    "template_family": "attack-0"
+  },
+  "attack-02": {
+    "expected_attack": true,
+    "template_family": "attack-1"
+  },
+  "attack-03": {
+    "expected_attack": true,
+    "template_family": "attack-2"
+  },
+  "attack-04": {
+    "expected_attack": true,
+    "template_family": "attack-3"
+  },
+  "attack-05": {
+    "expected_attack": true,
+    "template_family": "attack-0"
+  },
+  "attack-06": {
+    "expected_attack": true,
+    "template_family": "attack-1"
+  },
+  "attack-07": {
+    "expected_attack": true,
+    "template_family": "attack-2"
+  },
+  "attack-08": {
+    "expected_attack": true,
+    "template_family": "attack-3"
+  },
+  "attack-09": {
+    "expected_attack": true,
+    "template_family": "attack-0"
+  },
+  "attack-10": {
+    "expected_attack": true,
+    "template_family": "attack-1"
+  },
+  "attack-11": {
+    "expected_attack": true,
+    "template_family": "attack-2"
+  },
+  "attack-12": {
+    "expected_attack": true,
+    "template_family": "attack-3"
+  },
+  "attack-13": {
+    "expected_attack": true,
+    "template_family": "attack-0"
+  },
+  "attack-14": {
+    "expected_attack": true,
+    "template_family": "attack-1"
+  },
+  "attack-15": {
+    "expected_attack": true,
+    "template_family": "attack-2"
+  },
+  "attack-16": {
+    "expected_attack": true,
+    "template_family": "attack-3"
+  },
+  "attack-17": {
+    "expected_attack": true,
+    "template_family": "attack-0"
+  },
+  "attack-18": {
+    "expected_attack": true,
+    "template_family": "attack-1"
+  },
+  "attack-19": {
+    "expected_attack": true,
+    "template_family": "attack-2"
+  },
+  "attack-20": {
+    "expected_attack": true,
+    "template_family": "attack-3"
+  },
+  "attack-21": {
+    "expected_attack": true,
+    "template_family": "attack-0"
+  },
+  "attack-22": {
+    "expected_attack": true,
+    "template_family": "attack-1"
+  },
+  "attack-23": {
+    "expected_attack": true,
+    "template_family": "attack-2"
+  },
+  "attack-24": {
+    "expected_attack": true,
+    "template_family": "attack-3"
+  },
+  "attack-25": {
+    "expected_attack": true,
+    "template_family": "attack-0"
+  },
+  "attack-26": {
+    "expected_attack": true,
+    "template_family": "attack-1"
+  },
+  "attack-27": {
+    "expected_attack": true,
+    "template_family": "attack-2"
+  },
+  "attack-28": {
+    "expected_attack": true,
+    "template_family": "attack-3"
+  },
+  "attack-29": {
+    "expected_attack": true,
+    "template_family": "attack-0"
+  },
+  "attack-30": {
+    "expected_attack": true,
+    "template_family": "attack-1"
+  },
+  "attack-31": {
+    "expected_attack": true,
+    "template_family": "attack-2"
+  },
+  "attack-32": {
+    "expected_attack": true,
+    "template_family": "attack-3"
+  },
+  "attack-33": {
+    "expected_attack": true,
+    "template_family": "attack-0"
+  },
+  "attack-34": {
+    "expected_attack": true,
+    "template_family": "attack-1"
+  },
+  "attack-35": {
+    "expected_attack": true,
+    "template_family": "attack-2"
+  },
+  "attack-36": {
+    "expected_attack": true,
+    "template_family": "attack-3"
+  },
+  "attack-37": {
+    "expected_attack": true,
+    "template_family": "attack-0"
+  },
+  "attack-38": {
+    "expected_attack": true,
+    "template_family": "attack-1"
+  },
+  "attack-39": {
+    "expected_attack": true,
+    "template_family": "attack-2"
+  },
+  "attack-40": {
+    "expected_attack": true,
+    "template_family": "attack-3"
+  },
+  "benign-01": {
+    "expected_attack": false,
+    "template_family": "benign-0"
+  },
+  "benign-02": {
+    "expected_attack": false,
+    "template_family": "benign-1"
+  },
+  "benign-03": {
+    "expected_attack": false,
+    "template_family": "benign-0"
+  },
+  "benign-04": {
+    "expected_attack": false,
+    "template_family": "benign-1"
+  },
+  "benign-05": {
+    "expected_attack": false,
+    "template_family": "benign-0"
+  },
+  "benign-06": {
+    "expected_attack": false,
+    "template_family": "benign-1"
+  },
+  "benign-07": {
+    "expected_attack": false,
+    "template_family": "benign-0"
+  },
+  "benign-08": {
+    "expected_attack": false,
+    "template_family": "benign-1"
+  },
+  "benign-09": {
+    "expected_attack": false,
+    "template_family": "benign-0"
+  },
+  "benign-10": {
+    "expected_attack": false,
+    "template_family": "benign-1"
+  },
+  "benign-11": {
+    "expected_attack": false,
+    "template_family": "benign-0"
+  },
+  "benign-12": {
+    "expected_attack": false,
+    "template_family": "benign-1"
+  },
+  "benign-13": {
+    "expected_attack": false,
+    "template_family": "benign-0"
+  },
+  "benign-14": {
+    "expected_attack": false,
+    "template_family": "benign-1"
+  },
+  "benign-15": {
+    "expected_attack": false,
+    "template_family": "benign-0"
+  },
+  "benign-16": {
+    "expected_attack": false,
+    "template_family": "benign-1"
+  },
+  "benign-17": {
+    "expected_attack": false,
+    "template_family": "benign-0"
+  },
+  "benign-18": {
+    "expected_attack": false,
+    "template_family": "benign-1"
+  },
+  "benign-19": {
+    "expected_attack": false,
+    "template_family": "benign-0"
+  },
+  "benign-20": {
+    "expected_attack": false,
+    "template_family": "benign-1"
+  },
+  "benign-21": {
+    "expected_attack": false,
+    "template_family": "benign-0"
+  },
+  "benign-22": {
+    "expected_attack": false,
+    "template_family": "benign-1"
+  },
+  "benign-23": {
+    "expected_attack": false,
+    "template_family": "benign-0"
+  },
+  "benign-24": {
+    "expected_attack": false,
+    "template_family": "benign-1"
+  },
+  "benign-25": {
+    "expected_attack": false,
+    "template_family": "benign-0"
+  },
+  "benign-26": {
+    "expected_attack": false,
+    "template_family": "benign-1"
+  },
+  "benign-27": {
+    "expected_attack": false,
+    "template_family": "benign-0"
+  },
+  "benign-28": {
+    "expected_attack": false,
+    "template_family": "benign-1"
+  },
+  "benign-29": {
+    "expected_attack": false,
+    "template_family": "benign-0"
+  },
+  "benign-30": {
+    "expected_attack": false,
+    "template_family": "benign-1"
+  },
+  "benign-31": {
+    "expected_attack": false,
+    "template_family": "benign-0"
+  },
+  "benign-32": {
+    "expected_attack": false,
+    "template_family": "benign-1"
+  },
+  "benign-33": {
+    "expected_attack": false,
+    "template_family": "benign-0"
+  },
+  "benign-34": {
+    "expected_attack": false,
+    "template_family": "benign-1"
+  },
+  "benign-35": {
+    "expected_attack": false,
+    "template_family": "benign-0"
+  },
+  "benign-36": {
+    "expected_attack": false,
+    "template_family": "benign-1"
+  },
+  "benign-37": {
+    "expected_attack": false,
+    "template_family": "benign-0"
+  },
+  "benign-38": {
+    "expected_attack": false,
+    "template_family": "benign-1"
+  },
+  "benign-39": {
+    "expected_attack": false,
+    "template_family": "benign-0"
+  },
+  "benign-40": {
+    "expected_attack": false,
+    "template_family": "benign-1"
+  },
+  "quotation-01": {
+    "expected_attack": false,
+    "template_family": "quotation-0"
+  },
+  "quotation-02": {
+    "expected_attack": false,
+    "template_family": "quotation-1"
+  },
+  "quotation-03": {
+    "expected_attack": false,
+    "template_family": "quotation-0"
+  },
+  "quotation-04": {
+    "expected_attack": false,
+    "template_family": "quotation-1"
+  },
+  "quotation-05": {
+    "expected_attack": false,
+    "template_family": "quotation-0"
+  },
+  "quotation-06": {
+    "expected_attack": false,
+    "template_family": "quotation-1"
+  },
+  "quotation-07": {
+    "expected_attack": false,
+    "template_family": "quotation-0"
+  },
+  "quotation-08": {
+    "expected_attack": false,
+    "template_family": "quotation-1"
+  },
+  "quotation-09": {
+    "expected_attack": false,
+    "template_family": "quotation-0"
+  },
+  "quotation-10": {
+    "expected_attack": false,
+    "template_family": "quotation-1"
+  },
+  "quotation-11": {
+    "expected_attack": false,
+    "template_family": "quotation-0"
+  },
+  "quotation-12": {
+    "expected_attack": false,
+    "template_family": "quotation-1"
+  },
+  "quotation-13": {
+    "expected_attack": false,
+    "template_family": "quotation-0"
+  },
+  "quotation-14": {
+    "expected_attack": false,
+    "template_family": "quotation-1"
+  },
+  "quotation-15": {
+    "expected_attack": false,
+    "template_family": "quotation-0"
+  },
+  "quotation-16": {
+    "expected_attack": false,
+    "template_family": "quotation-1"
+  },
+  "quotation-17": {
+    "expected_attack": false,
+    "template_family": "quotation-0"
+  },
+  "quotation-18": {
+    "expected_attack": false,
+    "template_family": "quotation-1"
+  },
+  "quotation-19": {
+    "expected_attack": false,
+    "template_family": "quotation-0"
+  },
+  "quotation-20": {
+    "expected_attack": false,
+    "template_family": "quotation-1"
+  },
+  "quotation-21": {
+    "expected_attack": false,
+    "template_family": "quotation-0"
+  },
+  "quotation-22": {
+    "expected_attack": false,
+    "template_family": "quotation-1"
+  },
+  "quotation-23": {
+    "expected_attack": false,
+    "template_family": "quotation-0"
+  },
+  "quotation-24": {
+    "expected_attack": false,
+    "template_family": "quotation-1"
+  },
+  "quotation-25": {
+    "expected_attack": false,
+    "template_family": "quotation-0"
+  },
+  "quotation-26": {
+    "expected_attack": false,
+    "template_family": "quotation-1"
+  },
+  "quotation-27": {
+    "expected_attack": false,
+    "template_family": "quotation-0"
+  },
+  "quotation-28": {
+    "expected_attack": false,
+    "template_family": "quotation-1"
+  },
+  "quotation-29": {
+    "expected_attack": false,
+    "template_family": "quotation-0"
+  },
+  "quotation-30": {
+    "expected_attack": false,
+    "template_family": "quotation-1"
+  },
+  "quotation-31": {
+    "expected_attack": false,
+    "template_family": "quotation-0"
+  },
+  "quotation-32": {
+    "expected_attack": false,
+    "template_family": "quotation-1"
+  },
+  "quotation-33": {
+    "expected_attack": false,
+    "template_family": "quotation-0"
+  },
+  "quotation-34": {
+    "expected_attack": false,
+    "template_family": "quotation-1"
+  },
+  "quotation-35": {
+    "expected_attack": false,
+    "template_family": "quotation-0"
+  },
+  "quotation-36": {
+    "expected_attack": false,
+    "template_family": "quotation-1"
+  },
+  "quotation-37": {
+    "expected_attack": false,
+    "template_family": "quotation-0"
+  },
+  "quotation-38": {
+    "expected_attack": false,
+    "template_family": "quotation-1"
+  },
+  "quotation-39": {
+    "expected_attack": false,
+    "template_family": "quotation-0"
+  },
+  "quotation-40": {
+    "expected_attack": false,
+    "template_family": "quotation-1"
+  }
+}

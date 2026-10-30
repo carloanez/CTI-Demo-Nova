@@ -1,0 +1,15 @@
+{
+  "versions": {
+    "msticpy": "3.0.2",
+    "nova-hunting": "0.3.1",
+    "pysigma": "2.0.1",
+    "pysigma-backend-sqlite": "2.1.1",
+    "openai": "2.54.0"
+  },
+  "corpus_manifest_sha256": "90e65c5afcbe69328ea8bea255f5b0ebcc520fa611a995c62325142fc5253a30",
+  "ai_provenance": {
+    "mode": "replay",
+    "origin": "INSTRUCTOR-AUTHORED FIXTURE, NOT AN OPENAI RESPONSE",
+    "context_sha256": "8309258e9f71e1fff4fb6bd1aed099a92584d16d3597ee2e2f2305367a4d06bb"
+  }
+}

@@ -1,0 +1,177 @@
+[
+  {
+    "indicator": "cdn-update-cloud.invalid",
+    "verdict": "suspicious",
+    "confidence": "medium",
+    "source_id": "R01:P03",
+    "observed_at": "2026-06-21"
+  },
+  {
+    "indicator": "sheet-sync-service.invalid",
+    "verdict": "suspicious",
+    "confidence": "medium",
+    "source_id": "R01:P03",
+    "observed_at": "2026-06-21"
+  },
+  {
+    "indicator": "203.0.113.42",
+    "verdict": "suspicious",
+    "confidence": "medium",
+    "source_id": "R01:P03",
+    "observed_at": "2026-06-21"
+  },
+  {
+    "indicator": "198.51.100.77",
+    "verdict": "investigate",
+    "confidence": "low",
+    "source_id": "R01:P03",
+    "observed_at": "2026-06-21"
+  },
+  {
+    "indicator": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "verdict": "empty-content-placeholder",
+    "confidence": "high",
+    "source_id": "R01:P03",
+    "observed_at": "2026-06-21"
+  },
+  {
+    "indicator": "service-0.example",
+    "verdict": "benign-training",
+    "confidence": "high",
+    "source_id": "R07:P01",
+    "observed_at": "2026-06-21"
+  },
+  {
+    "indicator": "service-1.example",
+    "verdict": "benign-training",
+    "confidence": "high",
+    "source_id": "R07:P01",
+    "observed_at": "2026-06-21"
+  },
+  {
+    "indicator": "service-2.example",
+    "verdict": "benign-training",
+    "confidence": "high",
+    "source_id": "R07:P01",
+    "observed_at": "2026-06-21"
+  },
+  {
+    "indicator": "service-3.example",
+    "verdict": "benign-training",
+    "confidence": "high",
+    "source_id": "R07:P01",
+    "observed_at": "2026-06-21"
+  },
+  {
+    "indicator": "service-4.example",
+    "verdict": "benign-training",
+    "confidence": "high",
+    "source_id": "R07:P01",
+    "observed_at": "2026-06-21"
+  },
+  {
+    "indicator": "service-5.example",
+    "verdict": "benign-training",
+    "confidence": "high",
+    "source_id": "R07:P01",
+    "observed_at": "2026-06-21"
+  },
+  {
+    "indicator": "service-6.example",
+    "verdict": "benign-training",
+    "confidence": "high",
+    "source_id": "R07:P01",
+    "observed_at": "2026-06-21"
+  },
+  {
+    "indicator": "service-7.example",
+    "verdict": "benign-training",
+    "confidence": "high",
+    "source_id": "R07:P01",
+    "observed_at": "2026-06-21"
+  },
+  {
+    "indicator": "service-8.example",
+    "verdict": "benign-training",
+    "confidence": "high",
+    "source_id": "R07:P01",
+    "observed_at": "2026-06-21"
+  },
+  {
+    "indicator": "service-9.example",
+    "verdict": "benign-training",
+    "confidence": "high",
+    "source_id": "R07:P01",
+    "observed_at": "2026-06-21"
+  },
+  {
+    "indicator": "service-10.example",
+    "verdict": "benign-training",
+    "confidence": "high",
+    "source_id": "R07:P01",
+    "observed_at": "2026-06-21"
+  },
+  {
+    "indicator": "service-11.example",
+    "verdict": "benign-training",
+    "confidence": "high",
+    "source_id": "R07:P01",
+    "observed_at": "2026-06-21"
+  },
+  {
+    "indicator": "service-12.example",
+    "verdict": "benign-training",
+    "confidence": "high",
+    "source_id": "R07:P01",
+    "observed_at": "2026-06-21"
+  },
+  {
+    "indicator": "service-13.example",
+    "verdict": "benign-training",
+    "confidence": "high",
+    "source_id": "R07:P01",
+    "observed_at": "2026-06-21"
+  },
+  {
+    "indicator": "service-14.example",
+    "verdict": "benign-training",
+    "confidence": "high",
+    "source_id": "R07:P01",
+    "observed_at": "2026-06-21"
+  },
+  {
+    "indicator": "service-15.example",
+    "verdict": "benign-training",
+    "confidence": "high",
+    "source_id": "R07:P01",
+    "observed_at": "2026-06-21"
+  },
+  {
+    "indicator": "service-16.example",
+    "verdict": "benign-training",
+    "confidence": "high",
+    "source_id": "R07:P01",
+    "observed_at": "2026-06-21"
+  },
+  {
+    "indicator": "service-17.example",
+    "verdict": "benign-training",
+    "confidence": "high",
+    "source_id": "R07:P01",
+    "observed_at": "2026-06-21"
+  },
+  {
+    "indicator": "service-18.example",
+    "verdict": "benign-training",
+    "confidence": "high",
+    "source_id": "R07:P01",
+    "observed_at": "2026-06-21"
+  },
+  {
+    "indicator": "service-19.example",
+    "verdict": "benign-training",
+    "confidence": "high",
+    "source_id": "R07:P01",
+    "observed_at": "2026-06-21"
+  }
+]

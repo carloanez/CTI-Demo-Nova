@@ -1,0 +1,203 @@
+{
+  "event_labels": {
+    "PX-A01": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "PX-A02": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "PX-A03": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "PX-A04": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "PX-A05": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "PX-A06": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "PX-A07": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "PX-A08": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "PX-A09": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "PX-A10": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "DN-A01": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "DN-A02": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "DN-A03": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "DN-A04": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "DN-A05": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "DN-A06": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "DN-A07": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "DN-A08": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "DN-A09": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "DN-A10": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "EP-A01": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "EP-A02": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "EP-A03": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "EP-A04": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "EP-A05": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "EP-A06": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "EP-A07": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "EP-A08": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "EP-A09": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "EP-A10": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "AU-A01": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "AU-A02": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "AU-A03": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "AU-A04": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "AU-A05": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "AU-A06": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "AU-A07": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "AU-A08": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "AU-A09": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    },
+    "AU-A10": {
+      "scenario": "obsidian",
+      "disposition": "simulated_adversarial"
+    }
+  },
+  "expected": {
+    "infrastructure": [
+      "PX-A01",
+      "PX-A02",
+      "PX-A03",
+      "PX-A04",
+      "PX-A05"
+    ],
+    "powershell_broad": [
+      "EP-A01",
+      "EP-A02",
+      "EP-A03",
+      "EP-A04",
+      "EP-A05",
+      "EP-A06",
+      "EP-A07",
+      "EP-B0001",
+      "EP-B0002"
+    ],
+    "powershell_tuned": [
+      "EP-A01",
+      "EP-A02",
+      "EP-A03",
+      "EP-A04",
+      "EP-A05",
+      "EP-A06",
+      "EP-A07"
+    ],
+    "log_clear": [
+      "EP-A08",
+      "EP-A09"
+    ]
+  },
+  "gaps": [
+    "Credential origin",
+    "Successful exfiltration",
+    "AI-assisted malware development",
+    "Real actor attribution"
+  ]
+}

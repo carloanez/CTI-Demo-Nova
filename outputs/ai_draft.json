@@ -1,0 +1,218 @@
+{
+  "provenance": {
+    "mode": "replay",
+    "origin": "INSTRUCTOR-AUTHORED FIXTURE, NOT AN OPENAI RESPONSE",
+    "context_sha256": "8309258e9f71e1fff4fb6bd1aed099a92584d16d3597ee2e2f2305367a4d06bb"
+  },
+  "analysis": {
+    "summary": "The fictional Obsidian case contains suspicious scripting and network leads. Investigate the event sequence, test detection hypotheses, and retain explicit uncertainty about attribution and impact.",
+    "findings": [
+      {
+        "statement": "The report supplies infrastructure for a field-aware indicator pivot.",
+        "source_id": "R01:P03",
+        "quote": "Preserve the original strings and normalize a separate copy.",
+        "confidence": "reported"
+      },
+      {
+        "statement": "The evidence notes distinguish observed PowerShell activity from claims about AI-assisted tooling.",
+        "source_id": "R04:P01",
+        "quote": "Observed: PowerShell process records include download commands and hidden/no-profile flags.",
+        "confidence": "requires event validation"
+      },
+      {
+        "statement": "An archive is a collection lead; successful exfiltration is not established.",
+        "source_id": "R02:P04",
+        "quote": "An archive and unrelated outbound requests do not by themselves prove that the archive was exfiltrated.",
+        "confidence": "explicit limitation"
+      }
+    ],
+    "intelligence_gaps": [
+      "Credential acquisition method is unknown.",
+      "Successful exfiltration is unconfirmed.",
+      "The logs do not establish AI-assisted malware development or real actor attribution."
+    ],
+    "detection_hypotheses": [
+      "Compare known infrastructure matches with a PowerShell download behavior rule.",
+      "Use independent change context to assess maintenance false positives.",
+      "Scan external CTI passages for attempts to redirect the analyst assistant."
+    ]
+  },
+  "retrieval_audit": [
+    {
+      "source_id": "R01:P01",
+      "raw_match": false,
+      "matched_rules": [],
+      "policy_action": "allow",
+      "warnings": []
+    },
+    {
+      "source_id": "R01:P02",
+      "raw_match": false,
+      "matched_rules": [],
+      "policy_action": "allow",
+      "warnings": []
+    },
+    {
+      "source_id": "R01:P03",
+      "raw_match": false,
+      "matched_rules": [],
+      "policy_action": "allow",
+      "warnings": []
+    },
+    {
+      "source_id": "R01:P04",
+      "raw_match": false,
+      "matched_rules": [],
+      "policy_action": "allow",
+      "warnings": []
+    },
+    {
+      "source_id": "R01:P05",
+      "raw_match": false,
+      "matched_rules": [],
+      "policy_action": "allow",
+      "warnings": []
+    },
+    {
+      "source_id": "R02:P01",
+      "raw_match": false,
+      "matched_rules": [],
+      "policy_action": "allow",
+      "warnings": []
+    },
+    {
+      "source_id": "R02:P02",
+      "raw_match": false,
+      "matched_rules": [],
+      "policy_action": "allow",
+      "warnings": []
+    },
+    {
+      "source_id": "R02:P03",
+      "raw_match": false,
+      "matched_rules": [],
+      "policy_action": "allow",
+      "warnings": []
+    },
+    {
+      "source_id": "R02:P04",
+      "raw_match": false,
+      "matched_rules": [],
+      "policy_action": "allow",
+      "warnings": []
+    },
+    {
+      "source_id": "R03:P01",
+      "raw_match": false,
+      "matched_rules": [],
+      "policy_action": "allow",
+      "warnings": []
+    },
+    {
+      "source_id": "R03:P02",
+      "raw_match": false,
+      "matched_rules": [],
+      "policy_action": "allow",
+      "warnings": []
+    },
+    {
+      "source_id": "R03:P03",
+      "raw_match": false,
+      "matched_rules": [],
+      "policy_action": "allow",
+      "warnings": []
+    },
+    {
+      "source_id": "R04:P01",
+      "raw_match": false,
+      "matched_rules": [],
+      "policy_action": "allow",
+      "warnings": []
+    },
+    {
+      "source_id": "R04:P02",
+      "raw_match": false,
+      "matched_rules": [],
+      "policy_action": "allow",
+      "warnings": []
+    },
+    {
+      "source_id": "R04:P03",
+      "raw_match": false,
+      "matched_rules": [],
+      "policy_action": "allow",
+      "warnings": []
+    },
+    {
+      "source_id": "R05:P01",
+      "raw_match": true,
+      "matched_rules": [
+        "CTIInstructionOverride"
+      ],
+      "policy_action": "withhold_chunk",
+      "warnings": []
+    },
+    {
+      "source_id": "R05:P02",
+      "raw_match": false,
+      "matched_rules": [],
+      "policy_action": "allow",
+      "warnings": []
+    },
+    {
+      "source_id": "R06:P01",
+      "raw_match": false,
+      "matched_rules": [],
+      "policy_action": "allow",
+      "warnings": []
+    },
+    {
+      "source_id": "R06:P02",
+      "raw_match": true,
+      "matched_rules": [
+        "CTIInstructionOverride",
+        "CTIFindingSuppression"
+      ],
+      "policy_action": "withhold_chunk",
+      "warnings": []
+    },
+    {
+      "source_id": "R06:P03",
+      "raw_match": true,
+      "matched_rules": [
+        "CTICaseBundleTransfer"
+      ],
+      "policy_action": "withhold_chunk",
+      "warnings": []
+    },
+    {
+      "source_id": "R07:P01",
+      "raw_match": false,
+      "matched_rules": [],
+      "policy_action": "allow",
+      "warnings": []
+    },
+    {
+      "source_id": "R07:P02",
+      "raw_match": false,
+      "matched_rules": [],
+      "policy_action": "allow",
+      "warnings": []
+    },
+    {
+      "source_id": "R08:P01",
+      "raw_match": false,
+      "matched_rules": [],
+      "policy_action": "allow",
+      "warnings": []
+    },
+    {
+      "source_id": "R08:P02",
+      "raw_match": false,
+      "matched_rules": [],
+      "policy_action": "allow",
+      "warnings": []
+    }
+  ],
+  "session_id": "de3e5171-352f-4d0d-91bd-c5aef38c17aa"
+}

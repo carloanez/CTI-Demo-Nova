@@ -1,0 +1,20 @@
+[
+  {
+    "file": "assets/qr-tcm-security.png",
+    "payload": "https://tcm-sec.com/",
+    "modules": 33,
+    "verified": true
+  },
+  {
+    "file": "assets/qr-ignitecyber-academy.png",
+    "payload": "https://ignitecyber.academy/",
+    "modules": 37,
+    "verified": true
+  },
+  {
+    "file": "assets/qr-carlo-linkedin.png",
+    "payload": "https://www.linkedin.com/in/carloanez",
+    "modules": 41,
+    "verified": true
+  }
+]

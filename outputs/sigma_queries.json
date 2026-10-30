@@ -1,0 +1,6 @@
+{
+  "infrastructure": "SELECT * FROM logs WHERE EventType='proxy' AND url LIKE '%cdn-update-cloud.invalid%' ESCAPE '\\'",
+  "log_clear": "SELECT * FROM logs WHERE (EventType='endpoint' AND Image LIKE '%\\\\wevtutil.exe' ESCAPE '\\' AND CommandLine LIKE '%cl Security%' ESCAPE '\\') AND (NOT COALESCE((ApprovedChange=1), 0))",
+  "powershell_broad": "SELECT * FROM logs WHERE EventType='endpoint' AND Image LIKE '%\\\\powershell.exe' ESCAPE '\\' AND (CommandLine LIKE '%-NoProfile%' ESCAPE '\\' AND CommandLine LIKE '%-WindowStyle Hidden%' ESCAPE '\\' AND CommandLine LIKE '%Invoke-WebRequest%' ESCAPE '\\')",
+  "powershell_tuned": "SELECT * FROM logs WHERE (EventType='endpoint' AND Image LIKE '%\\\\powershell.exe' ESCAPE '\\' AND (CommandLine LIKE '%-NoProfile%' ESCAPE '\\' AND CommandLine LIKE '%-WindowStyle Hidden%' ESCAPE '\\' AND CommandLine LIKE '%Invoke-WebRequest%' ESCAPE '\\')) AND (NOT COALESCE((ApprovedChange=1), 0))"
+}

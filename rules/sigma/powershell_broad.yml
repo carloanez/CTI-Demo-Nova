@@ -1,0 +1,23 @@
+title: Obsidian Training PowerShell Download Broad
+id: 284c881b-d571-49dc-af31-c3fa37e5a5d8
+status: experimental
+author: Carlo Anez Mazurco / IgniteCyber Academy
+date: 2026-10-29
+tags:
+  - attack.execution
+  - attack.t1059.001
+logsource:
+  product: windows
+  category: process_creation
+detection:
+  selection:
+    EventType: endpoint
+    Image|endswith: '\powershell.exe'
+    CommandLine|contains|all:
+      - '-NoProfile'
+      - '-WindowStyle Hidden'
+      - Invoke-WebRequest
+  condition: selection
+falsepositives:
+  - Approved maintenance downloads
+level: medium

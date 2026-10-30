@@ -1,0 +1,13 @@
+{
+  "provenance": "Instructor-authored offline teaching fixture. Never represent as a captured OpenAI response.",
+  "analysis": {
+    "summary": "The fictional Obsidian case contains suspicious scripting and network leads. Investigate the event sequence, test detection hypotheses, and retain explicit uncertainty about attribution and impact.",
+    "findings": [
+      {"statement":"The report supplies infrastructure for a field-aware indicator pivot.","source_id":"R01:P03","quote":"Preserve the original strings and normalize a separate copy.","confidence":"reported"},
+      {"statement":"The evidence notes distinguish observed PowerShell activity from claims about AI-assisted tooling.","source_id":"R04:P01","quote":"Observed: PowerShell process records include download commands and hidden/no-profile flags.","confidence":"requires event validation"},
+      {"statement":"An archive is a collection lead; successful exfiltration is not established.","source_id":"R02:P04","quote":"An archive and unrelated outbound requests do not by themselves prove that the archive was exfiltrated.","confidence":"explicit limitation"}
+    ],
+    "intelligence_gaps":["Credential acquisition method is unknown.","Successful exfiltration is unconfirmed.","The logs do not establish AI-assisted malware development or real actor attribution."],
+    "detection_hypotheses":["Compare known infrastructure matches with a PowerShell download behavior rule.","Use independent change context to assess maintenance false positives.","Scan external CTI passages for attempts to redirect the analyst assistant."]
+  }
+}

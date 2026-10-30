@@ -1,0 +1,28 @@
+{
+  "seed": 340629,
+  "generated_at": "2026-10-29",
+  "synthetic": true,
+  "documents": 8,
+  "passages": 24,
+  "telemetry_events": 3000,
+  "nova_cases": 120,
+  "ti_records": 25,
+  "files": {
+    "data/changes.json": "f6fc793dd1b91b117b086507f3e0eac00291b95a2be9147d578818858d5c92f3",
+    "data/logs/auth.csv": "d5995443a73cf6360777dd9979ccd2bf4b37444c181a42d25fdeb9ac5736d471",
+    "data/logs/dns.csv": "ea823ec7f562f8f97b6ead298d6f43c592ea0f138f37bf07c84985abff2444d1",
+    "data/logs/endpoint.csv": "924aec62c071c02919abc238c9c8db05bd53232144b476877cfc09a5c852a797",
+    "data/logs/proxy.csv": "1bc5d3651d3649f9c66a565ab74fca81e29595cfeba66570177af300afc90951",
+    "data/nova_cases.json": "0a0d911f788f0883d06a608433aa6b0fbd9ed275ee0a34cb0fb11ed6d744b25c",
+    "data/reports/R01.md": "040a7f29d4cda1470fea31658de0149d0970f89bd4c54e462721a225357dc091",
+    "data/reports/R02.md": "48fb4ec5ff6baa746c0201c2d762521b059bdd93721408db6d6fddf8877b76a7",
+    "data/reports/R03.md": "470c60282e4b501677afbbaf4cb9b32771964a6545dae44064aaa0b8c8eed5ae",
+    "data/reports/R04.md": "14302a4e9269c53f9ad0ed163727ebb9a4daceed23d93b0a3f5fdca06fd5c774",
+    "data/reports/R05.md": "4ee00efe80ffabb6303ca523a505024d026e668f893211fdbb4c89f863812fe3",
+    "data/reports/R06.md": "b18fbefb5e9eed6de4a56fc89baca94017c86d38ba758c7393f4a11cb3897313",
+    "data/reports/R07.md": "04bcfa45a3c929e798b1701a42c07b01bfa66ee846dd9555039abda407fec41c",
+    "data/reports/R08.md": "18351c29c13915a065fe5fd0b7555483d3ffd5fb5dc6cf7b64aad57294aea7d6",
+    "data/sources.json": "48e3881d29f35da6d4fc1995ac2686ce015725318dfd52189afccc56ab95cdfd",
+    "data/ti.json": "fea8442195e66481c8b849d6f0dc74e43716728e6dcdb5a49a881ec02cb76785"
+  }
+}

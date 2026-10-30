@@ -1,0 +1,29 @@
+name: cti-notebook-lab
+services:
+  lab:
+    image: causefinder/cti-notebook-lab:1.0.0
+    platform: linux/amd64
+    build:
+      context: .
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:${JUPYTER_PORT:-8888}:8888"
+    environment:
+      AI_MODE: replay
+      OPENAI_MODEL: ${OPENAI_MODEL:-gpt-4.1-mini}
+      JUPYTER_TOKEN: ${JUPYTER_TOKEN:?Set a long random JUPYTER_TOKEN in .env}
+    volumes:
+      - lab_outputs:/opt/cti-lab/outputs
+      - lab_notebooks:/opt/cti-lab/notebooks
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    networks:
+      - offline
+networks:
+  offline:
+    internal: true
+volumes:
+  lab_outputs:
+  lab_notebooks:

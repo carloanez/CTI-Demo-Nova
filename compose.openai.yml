@@ -1,0 +1,15 @@
+# Explicit opt-in: this profile grants outbound connectivity and mounts the API secret.
+services:
+  lab:
+    environment:
+      AI_MODE: openai
+      OPENAI_API_KEY_FILE: /run/secrets/openai_api_key
+    secrets:
+      - openai_api_key
+    networks:
+      - online
+networks:
+  online: {}
+secrets:
+  openai_api_key:
+    file: ./secrets/openai_api_key

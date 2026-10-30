@@ -1,0 +1,33 @@
+{
+  "infrastructure": [
+    "PX-A01",
+    "PX-A02",
+    "PX-A03",
+    "PX-A04",
+    "PX-A05"
+  ],
+  "log_clear": [
+    "EP-A08",
+    "EP-A09"
+  ],
+  "powershell_broad": [
+    "EP-A01",
+    "EP-A02",
+    "EP-A03",
+    "EP-A04",
+    "EP-A05",
+    "EP-A06",
+    "EP-A07",
+    "EP-B0001",
+    "EP-B0002"
+  ],
+  "powershell_tuned": [
+    "EP-A01",
+    "EP-A02",
+    "EP-A03",
+    "EP-A04",
+    "EP-A05",
+    "EP-A06",
+    "EP-A07"
+  ]
+}

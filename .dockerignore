@@ -1,0 +1,15 @@
+.env
+.env.*
+.git
+dist
+.venv
+secrets
+__pycache__
+.pytest_cache
+*.egg-info
+offline-images
+slides
+deployment
+backups
+recordings
+outputs/live_*

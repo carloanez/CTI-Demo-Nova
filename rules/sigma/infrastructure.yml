@@ -1,0 +1,17 @@
+title: Obsidian Training Known Infrastructure
+id: e8ea1967-5891-4832-92ad-85448d367b3e
+status: experimental
+description: Synthetic indicator baseline with an intentional rotated-domain blind spot
+author: Carlo Anez Mazurco / IgniteCyber Academy
+date: 2026-10-29
+logsource:
+  category: proxy
+detection:
+  scope:
+    EventType: proxy
+  destination:
+    url|contains: cdn-update-cloud.invalid
+  condition: scope and destination
+falsepositives:
+  - Approved security exercise
+level: medium

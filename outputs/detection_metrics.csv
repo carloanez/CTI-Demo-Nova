@@ -1,0 +1,5 @@
+rule,TP,FP,FN,TN,precision,recall
+infrastructure,5,0,5,740,1.0,0.5
+log_clear,2,0,0,748,1.0,1.0
+powershell_broad,7,2,0,741,0.7777777777777778,1.0
+powershell_tuned,7,0,0,743,1.0,1.0

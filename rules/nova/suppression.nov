@@ -1,0 +1,11 @@
+rule CTIFindingSuppression {
+    meta:
+        description = "Training patterns for manipulation of analyst findings"
+        author = "Carlo Anez Mazurco / IgniteCyber Academy"
+        severity = "high"
+    keywords:
+        $benign = "mark all indicators benign"
+        $omit = "omit this incident"
+    condition:
+        keywords.$benign or keywords.$omit
+}

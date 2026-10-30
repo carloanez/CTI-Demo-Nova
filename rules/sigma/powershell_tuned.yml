@@ -1,0 +1,26 @@
+title: Obsidian Training PowerShell Download With Change Context
+id: f3a7d285-e2d7-4a87-b94d-f5cbac8e6322
+status: experimental
+description: ApprovedChange is inventory enrichment, not a native Windows field
+author: Carlo Anez Mazurco / IgniteCyber Academy
+date: 2026-10-29
+tags:
+  - attack.execution
+  - attack.t1059.001
+logsource:
+  product: windows
+  category: process_creation
+detection:
+  selection:
+    EventType: endpoint
+    Image|endswith: '\powershell.exe'
+    CommandLine|contains|all:
+      - '-NoProfile'
+      - '-WindowStyle Hidden'
+      - Invoke-WebRequest
+  approved:
+    ApprovedChange: 1
+  condition: selection and not approved
+falsepositives:
+  - Unrecorded maintenance or security research
+level: medium

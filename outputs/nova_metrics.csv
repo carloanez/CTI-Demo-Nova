@@ -1,0 +1,5 @@
+split,stage,TP,FP,FN,TN,precision,recall
+development,raw_pattern,30,20,0,20,0.6,1.0
+development,application_policy,30,0,0,40,1.0,1.0
+heldout,raw_pattern,0,20,10,20,0.0,0.0
+heldout,application_policy,0,0,10,40,0.0,0.0

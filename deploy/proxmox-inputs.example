@@ -1,0 +1,14 @@
+# Deployment inventory only. Claude must resolve and verify these values.
+# This file is not executed or sourced automatically.
+LAB_PROXMOX_SSH_ALIAS=
+LAB_NODE=
+LAB_TEMPLATE_ID=
+LAB_VM_ID=
+LAB_VM_NAME=cti-notebook-lab
+LAB_STORAGE=
+LAB_BRIDGE=
+LAB_SSH_USER=
+LAB_PUBLIC_KEY_FILE=
+LAB_GUEST_IP=
+LAB_RELEASE_PATH=
+# API key contents belong in a protected secret file, never here.

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "causefinder-cti-notebook-lab"
+version = "1.0.0"
+description = "From Threat Intelligence to Detection: an evidence-grounded training lab"
+requires-python = ">=3.12,<3.13"
+
+[project.scripts]
+cti-lab = "cti_lab.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q --disable-socket"

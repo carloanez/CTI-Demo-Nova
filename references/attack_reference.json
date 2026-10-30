@@ -1,0 +1,9 @@
+{
+  "review_date": "2026-10-29",
+  "catalog_context": "ATT&CK v20.0",
+  "scope": "Curated two-technique reference, not a full STIX catalog snapshot",
+  "techniques": [
+    {"id":"T1059.001","name":"PowerShell","url":"https://attack.mitre.org/techniques/T1059/001/","summary":"Adversaries may use PowerShell for execution. A process invocation alone needs context to assess intent."},
+    {"id":"T1560.001","name":"Archive via Utility","url":"https://attack.mitre.org/techniques/T1560/001/","summary":"Utilities such as tar can package collected data. Archive creation alone does not establish that data left the environment."}
+  ]
+}

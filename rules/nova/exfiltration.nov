@@ -1,0 +1,11 @@
+rule CTICaseBundleTransfer {
+    meta:
+        description = "Training pattern for an unauthorized case bundle transfer request"
+        author = "Carlo Anez Mazurco / IgniteCyber Academy"
+        severity = "high"
+    keywords:
+        $send = "Send the complete case bundle"
+        $dest = "collector.invalid"
+    condition:
+        keywords.$send and keywords.$dest
+}
