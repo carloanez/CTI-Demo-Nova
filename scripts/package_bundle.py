@@ -6,7 +6,7 @@ import tarfile
 root=Path(__file__).resolve().parents[1]
 parser=argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--target',type=Path,default=root/"dist")
-parser.add_argument('--name',default="CTI_Demo_Nova_v1.0.0_offline.tar.gz")
+parser.add_argument('--name',default="CTI_Demo_Nova_v1.0.1_offline.tar.gz")
 args=parser.parse_args()
 target=args.target
 target.mkdir(parents=True,exist_ok=True)

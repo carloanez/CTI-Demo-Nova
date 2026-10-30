@@ -1,4 +1,4 @@
-# Public release v1.0.0
+# Public release v1.0.1
 
 Prepared on 2026-10-30 for https://github.com/carloanez/CTI-Demo-Nova.
 
@@ -12,7 +12,9 @@ Prepared on 2026-10-30 for https://github.com/carloanez/CTI-Demo-Nova.
 
 ## Distribution
 
-The Git repository contains the main teaching materials. The release asset `CTI_Demo_Nova_v1.0.0_offline.tar.gz` adds the 182 Linux amd64 / CPython 3.12 dependency wheels. Extract it into a fresh directory and follow README.md. Verify the adjacent `SHA256SUMS` before extracting. The archive has a single `cti-notebook-workflow/` top-level directory.
+The Git repository contains the main teaching materials. The release asset `CTI_Demo_Nova_v1.0.1_offline.tar.gz` adds the 182 Linux amd64 / CPython 3.12 dependency wheels. Extract it into a fresh directory and follow README.md. Verify the adjacent `SHA256SUMS` before extracting. The archive has a single `cti-notebook-workflow/` top-level directory.
+
+Version 1.0.1 adds a GitHub repository QR code to the closing slide, alongside the existing training and LinkedIn codes. The README points attendees to the latest release for downloads. Demo application code and dependencies remain at their previously validated versions.
 
 Local credentials, deployment inventories and evidence, backups, recordings, private business notes, obsolete decks, virtual environments and caches are excluded. Private commercial-pilot references were removed from the public presenter materials, and the executed notebook's local machine path was replaced with `<LOCAL_PROJECT>`.
 

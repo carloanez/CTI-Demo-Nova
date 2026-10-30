@@ -8,6 +8,7 @@ Revision prepared 2026-10-29. The conference website informed the warm ivory, bl
 - Logos: the three original PNGs supplied by Carlo. Their color and proportions are preserved. Inclusion alone does not state employment, ownership or endorsement.
 - Bio experience, previous employers and languages: supplied DEFCON introduction. Cause-Finder consulting, change management, AI adoption and the IgniteCyber training brand: user-provided project context.
 - QR images: direct HTTPS payloads, standard black and white, error-correction level Q, four-module quiet zones. Independently decoded during generation and from the rendered closing slide. See `qr-verification.json`.
+- Closing slide updated on 2026-10-30 with a fourth code for https://github.com/carloanez/CTI-Demo-Nova. The repository README links to the notebooks, slides and latest full offline bundle. The existing TCM Security, IgniteCyber Academy and LinkedIn codes remain.
 - TCM website checked against its official privacy policy: https://certifications.tcm-sec.com/privacy-policy/. IgniteCyber and LinkedIn destinations were provided by Carlo.
 
 ## Final cover prompt

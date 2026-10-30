@@ -2,7 +2,14 @@
 
 Prepared on 2026-10-29 for a 60-minute session. This records package assembly, not deployment on the user's Proxmox server.
 
-## Public copy checked on 2026-10-30
+## Closing slide update v1.0.1
+
+- Added the public GitHub repository QR code and a visible explanation that the repository provides the notebooks, slides and full demo bundle.
+- Retained the three existing training/contact codes. All four codes decoded correctly from both their PNG assets and the final closing slide.
+- The 22-slide deck retains its layout and timing. Slides 1 through 21 match the previous public renders. The revised closing slide and self-contained HTML version were reviewed for layout and readable links.
+- The updated public PowerPoint passed package, layout, font and first-party import checks. The release archive was rebuilt with the revised slides, notes and checksums. Demo code, corpus, rules and dependencies are unchanged from v1.0.0.
+
+## Public copy v1.0.0 checked on 2026-10-30
 
 - All 22 pytest tests passed with sockets disabled, using the public source and corpus.
 - The complete public replay pipeline ran successfully with sockets blocked and produced the expected detection and Nova metrics.

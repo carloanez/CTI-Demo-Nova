@@ -9,14 +9,14 @@ This is the complete local training package derived from the DEFCON34 MSTICPy de
 ## Start here
 
 - [PowerPoint slides](slides/Threat_Intelligence_to_Detection_HI_Cyber_Con_v2.pptx) and [self-contained offline browser deck](slides/Threat_Intelligence_to_Detection.html).
-- Conference revision: 22 slides with matching cover art, Carlo's introduction, the three supplied logos, and direct-link QR codes for TCM Security, IgniteCyber Academy and LinkedIn.
+- Conference revision: 22 slides with matching cover art, Carlo's introduction, the three supplied logos, and direct-link QR codes for the GitHub demo, TCM Security, IgniteCyber Academy and LinkedIn.
 - [Live notebook](notebooks/01_Threat_Intelligence_to_Detection.ipynb).
 - [Presenter path and timing](docs/PRESENTER_GUIDE.md).
 - [Proxmox deployment guide for Claude](docs/CLAUDE_DEPLOYMENT.md).
 - [Test scope and expected outcomes](docs/TESTING.md).
 - [Pre-executed replay notebook](instructor/executed_demo.ipynb).
 - [Prepared synthetic output examples](outputs/).
-- [Full offline kit and checksums](https://github.com/carloanez/CTI-Demo-Nova/releases/tag/v1.0.0), including the Linux amd64 Python 3.12 wheels.
+- [Latest full offline kit and checksums](https://github.com/carloanez/CTI-Demo-Nova/releases/latest), including the Linux amd64 Python 3.12 wheels.
 
 The requested 60-minute timing is retained. HI Cyber Con's public website advertises 45-minute sessions; confirm the assigned slot before presenting. Artwork provenance, the final generation prompt and QR destinations are documented in `slides/assets/ARTWORK_AND_SOURCES.md`.
 

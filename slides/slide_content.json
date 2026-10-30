@@ -417,8 +417,14 @@
   {
     "title": "Keep learning. Stay connected.",
     "type": "connect",
-    "lead": "Scan for training resources or connect on LinkedIn.",
+    "lead": "Scan GitHub for the notebooks, slides and full demo bundle.",
     "links": [
+      {
+        "label": "GitHub demo",
+        "url": "https://github.com/carloanez/CTI-Demo-Nova",
+        "display": "github.com/carloanez/\nCTI-Demo-Nova",
+        "image": "assets/qr-github-demo.png"
+      },
       {
         "label": "TCM Security",
         "url": "https://tcm-sec.com/",
@@ -434,12 +440,13 @@
       {
         "label": "Carlo on LinkedIn",
         "url": "https://www.linkedin.com/in/carloanez",
-        "display": "linkedin.com/in/carloanez",
+        "display": "linkedin.com/in/\ncarloanez",
         "image": "assets/qr-carlo-linkedin.png"
       }
     ],
-    "notes": "59:30–60:00. Leave this slide visible as you close. The QR codes contain direct HTTPS links without tracking or a shortening service. TCM points to the main TCM Security website. IgniteCyber points to ignitecyber.academy. LinkedIn points to Carlo's user-provided profile. The images work offline for scanning, while opening the websites requires internet. The profile and IgniteCyber URL were supplied by Carlo. QR payloads were decoded and checked during the slide build.",
+    "notes": "59:30–60:00. Leave this slide visible as you close. Point attendees to the first QR code for the public GitHub repository. Its README links to the notebooks, slides and latest release containing the full offline demo bundle and checksums. The remaining codes open TCM Security, IgniteCyber Academy and Carlo's LinkedIn profile. All four codes use direct HTTPS links without tracking or a shortening service. The images work offline for scanning, while opening the websites requires internet. QR payloads were decoded and checked from the rendered closing slide.",
     "sources": [
+      "https://github.com/carloanez/CTI-Demo-Nova",
       "https://tcm-sec.com/",
       "https://certifications.tcm-sec.com/privacy-policy/",
       "https://ignitecyber.academy/",

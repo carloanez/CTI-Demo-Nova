@@ -1,5 +1,11 @@
 [
   {
+    "file": "assets/qr-github-demo.png",
+    "payload": "https://github.com/carloanez/CTI-Demo-Nova",
+    "modules": 41,
+    "verified": true
+  },
+  {
     "file": "assets/qr-tcm-security.png",
     "payload": "https://tcm-sec.com/",
     "modules": 33,

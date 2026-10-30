@@ -88,7 +88,7 @@ Use SCP or the user's approved transfer method to copy the archive and adjacent 
 
 ```bash
 sha256sum -c SHA256SUMS
-tar -tzf CTI_Demo_Nova_v1.0.0_offline.tar.gz
+tar -tzf CTI_Demo_Nova_v1.0.1_offline.tar.gz
 ```
 
 Review the archive listing for unexpected absolute paths or parent traversal before extraction. Create a new release directory, for example `/srv/cti-lab/releases/1.0.0`, owned by the dedicated deployment user, and extract there. The archive has one top-level `cti-notebook-workflow/` directory. Do not extract over an existing edited release. Enter that directory for all commands below.
